@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Bidder</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- <link href="assets/style.css" rel="stylesheet"/> -->
+</head>
+
+<body>
+<h1>Hi Bidder, Welcome to Cricket Live Auction!</h1>
+<div id="auction-demo">
+    <div id="bid-window">
+        <div id="timer">Timer</div>
+        <div id="bidderId"></div>
+        <div id="playerList"><b>Player List</b><br><br></div>
+        <div id="playerToBid"><b>Player To Bid</b></div>
+    </div>
+    <input id="uid" type="hidden" value=""/>
+    <button id="send" disabled>Click here to Bid</button>
+    <div id="bidded"><br></div>
+    <div id="sold"><br></div>
+    <div id="unSold"><br></div>
+</div>
+<script src="assets/auctionBid.js"></script>
+</body>
+
+</html>
